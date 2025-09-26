@@ -1,0 +1,2221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &142787370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 142787373}
+  - component: {fileID: 142787372}
+  - component: {fileID: 142787371}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &142787371
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142787370}
+  m_Enabled: 1
+--- !u!20 &142787372
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142787370}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &142787373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142787370}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &160064848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 160064849}
+  - component: {fileID: 160064852}
+  - component: {fileID: 160064851}
+  - component: {fileID: 160064850}
+  m_Layer: 5
+  m_Name: AR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &160064849
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160064848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8187421909046106095}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -252.47162, y: -837}
+  m_SizeDelta: {x: 279.9564, y: 96.6624}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &160064850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160064848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 160064851}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198375784}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenScan
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &160064851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160064848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8cd8228c5112999c9a25221a242cb073, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &160064852
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160064848}
+  m_CullTransparentMesh: 1
+--- !u!114 &170567701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5601492839400618271, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+  m_PrefabInstance: {fileID: 8187421909046106094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &198375783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198375785}
+  - component: {fileID: 198375784}
+  m_Layer: 0
+  m_Name: backbutton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &198375784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198375783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf4bcf3bc3f3329e98c9fbfc52fb92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &198375785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198375783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 245.33403, y: 1397.1945, z: -14.028855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &308518791 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7505254033380359246, guid: 302951abebc6615f699e8d346280f402, type: 3}
+  m_PrefabInstance: {fileID: 1544875164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &369703264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369703265}
+  - component: {fileID: 369703268}
+  - component: {fileID: 369703267}
+  - component: {fileID: 369703266}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &369703265
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369703264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 720941900}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &369703266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369703264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &369703267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369703264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &369703268
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369703264}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &720941899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720941900}
+  - component: {fileID: 720941902}
+  - component: {fileID: 720941901}
+  m_Layer: 5
+  m_Name: ContentParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &720941900
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720941899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8187421909046106095}
+  m_Father: {fileID: 369703265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &720941901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720941899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &720941902
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720941899}
+  m_CullTransparentMesh: 1
+--- !u!1 &828820199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828820200}
+  - component: {fileID: 828820203}
+  - component: {fileID: 828820202}
+  - component: {fileID: 828820201}
+  m_Layer: 5
+  m_Name: QUIZ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &828820200
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828820199}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8187421909046106095}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 241.78888, y: -837}
+  m_SizeDelta: {x: 279.5218, y: 96.6624}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &828820201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828820199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 828820202}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198375784}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenScan
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &828820202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828820199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 68c41240da12c2505a62915d59e501b4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &828820203
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828820199}
+  m_CullTransparentMesh: 1
+--- !u!1 &914194098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914194101}
+  - component: {fileID: 914194100}
+  - component: {fileID: 914194099}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &914194099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914194098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &914194100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914194098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &914194101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914194098}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1097618227 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6036951727671259112, guid: 302951abebc6615f699e8d346280f402, type: 3}
+  m_PrefabInstance: {fileID: 1544875164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1224396278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1224396279}
+  - component: {fileID: 1224396282}
+  - component: {fileID: 1224396281}
+  - component: {fileID: 1224396280}
+  m_Layer: 5
+  m_Name: back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1224396279
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224396278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8187421909046106095}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -441, y: 864}
+  m_SizeDelta: {x: 97.0996, y: 96.6624}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1224396280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224396278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1224396281}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198375784}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenEncyclopedia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1224396281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224396278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6520e7c05a66f35d0b9debfa92356875, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1224396282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224396278}
+  m_CullTransparentMesh: 1
+--- !u!1 &1253800852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1644548174312236038, guid: 302951abebc6615f699e8d346280f402, type: 3}
+  m_PrefabInstance: {fileID: 1544875164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1253800856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253800852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f660ed59e3953588c3b6b2fe509d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  daun1: {fileID: 308518791}
+  daun2: {fileID: 1776877100}
+  daun3: {fileID: 1097618227}
+--- !u!1001 &1544875164
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1644548174312236038, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_Name
+      value: SceneTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878900437565139528, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 892e156e4ab228ebe985e6ea44a46fe3, type: 3}
+    - target: {fileID: 2878900437565139528, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3267971716880062176, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1644548174312236038, guid: 302951abebc6615f699e8d346280f402, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253800856}
+  m_SourcePrefab: {fileID: 100100000, guid: 302951abebc6615f699e8d346280f402, type: 3}
+--- !u!1 &1719195016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719195018}
+  - component: {fileID: 1719195017}
+  m_Layer: 0
+  m_Name: DetailedArticleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1719195017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719195016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d07ae52f714d47a89088d2945667c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentParent: {fileID: 720941900}
+  detailPrefab: {fileID: 8187421909046106096}
+  allArticles:
+  - key: BorneoIronwood
+    title: 'Borneo Ironwood
+
+      Pohon Ulin
+
+      Eusideroxylon zwageri
+
+
+      Ironwood
+      trees grow in primary and secondary forests on paddy fields up to a height
+      of 500 m, on sandy soil that has good drainage. Often found growing in river
+      basins and surrounding hills.
+
+
+      Trees reach 40 m tall and 80 cm in diameter.
+      The leaves are arranged in a spiral oval shape with a length of 20-30 cm, a
+      width of 6-9 cm, a rounded leaf base, and a pointed leaf tip. Flowers are bisexual,
+      in the form of panicles growing in the leaf axils, with rounded fruit ovaries.
+      The fruit is oval or twisted,
+
+      up to 25 cm long, with a diameter of 8
+      cm.'
+    image: {fileID: -3033820879696401836, guid: dc6bb84323ddc3e3686b7aba64287cfe, type: 3}
+  - key: AlstoniaIwahigensis
+    title: 'Alstonia Iwahigensis
+
+      Pohon Pulai
+
+      Alstonia Iwahigensis
+
+
+      This
+      species cangrow on various types of soil and is commonly found in lowland mixed
+      grassland forests, freshwater swamp forests, up to a height of 200 m above
+      sea level.
+
+
+      Large tree with a height of up to 45 m with a trunk diameter
+      of up to 100 cm, the trunk is grayish or brownish. The leaves are oval in shape
+      with a length of up to 22 cm, the length of the leaf stalk is about 2-3 cm.
+      Fragrant flowers, white, yellow or cream. The fruit is brownish.'
+    image: {fileID: -8262835943425297180, guid: 12f4f7a1f5e339ccdb829d8f7f6310ae, type: 3}
+  - key: Scorodocarpus
+    title: 'Scorodocarpus
+
+      Kayu Bawang
+
+      Scorodocarpus borneensis
+
+
+      Primary
+      or disturbed Dipterocarp forest. Its distribution includes Thailand, Malay
+      Peninsula, Sumatra, Borneo.
+
+
+      Tree, up to 40 m tall and 60 cm in diameter,
+      without buttresses or with small buttresses. Bark gray to dark brown, grooved,
+      flaky into small squares, purplish red inner skin, rough orange spots, strong
+      garlic aroma. Leaves Single, spirally arranged, oblong, leathery, glabrous,
+      leaf base wedge-shaped or rounded, tip tapering suddenly. Leaf stalks at the
+      tip are thickened. Inflorescence in clusters, in leaf axils. Stone fruit, almost
+      round, when dry has faint ribs, glabrous greenish, fleshy, woody seed shell.
+      Seeds Single, almost round.'
+    image: {fileID: -909102940720761405, guid: 3223fe1cf09e9cda1ab20dc323dc0846, type: 3}
+  - key: Diospyrosborneensis
+    title: 'Diospyros borneensis
+
+      Kayu Hitam
+
+      Diospyros borneensis
+
+
+      This
+      species grows to a height of 24 m and a trunk diameter of 30 cm, the branches
+      and twigs of this tree are reddish brown when young, and turn black when dry,
+      have no stipules. Single leaves arranged alternately, with pinnate leaf veins,
+      secondary leaf veins fused along the edge of the leaf. Solitary flowers or
+      arranged in inflorescences in the form of cymes, the number of flowers in one
+      inflorescence reaches 20 flowers, small flowers approximately 3 mm, white-
+      yellow in color, narrow tubular flower crowns. Round fruit 33-42 mm, black
+      when dry, fleshy berries with many flat elongated seeds.
+
+
+      The tree reaches
+      a height of 35 m and a trunk diameter of up to 120 cm. Low or high buttresses
+      up to 4 m. Bark scaly, gray to brownish, inner skin brownish, sandy. The stem
+      leaves are triangular, obtuse, deciduous. The leaves are more or less round
+      or breech- ovate, the edges of the leaves are curved backwards, glabrous or
+      hairy, the base is slightly shielded, the tip is rounded and tapers suddenly.
+      Leaf stalks are densely hairy. Flowers with about 25 stamens, ovary ovate,
+      densely hairy. The fruit is almost stemless, narrowly ovate and 5- sided, dense
+      rust-colored hairs, 2 long wings, up to 14 cm long and 3 bm wide and with 3
+      veins that are very clearly visible, the inside is bald, the wings are 3 short.'
+    image: {fileID: 8190851671287596235, guid: 6e95c202de75c565cb938b551568b940, type: 3}
+  - key: Dipterocarpus
+    title: 'Dipterocarpus
+
+      KeruingTempudau
+
+      Dipterocarpusconfertus
+
+
+      Primary
+      Forest, generally on ridges and undulating areas, up to 800 m above sea level.
+      Endemic to Borneo.
+
+
+      The tree reaches a height of 35 m and a trunk diameter
+      of up to 120 cm. Low or high buttresses up to 4 m. Bark scaly, gray to brownish,
+      inner skin brownish, sandy. The stem leaves are triangular, obtuse, deciduous.
+      The leaves are more or less round or breech- ovate, the edges of the leaves
+      are curved backwards, glabrous or hairy, the base is slightly shielded, the
+      tip is rounded and tapers suddenly. Leaf stalks are densely hairy. Flowers
+      with about 25 stamens, ovary ovate, densely hairy. The fruit is almost stemless,
+      narrowly ovate and 5- sided, dense rust-colored hairs, 2 long wings, up to
+      14 cm long and 3 bm wide and with 3 veins that are very clearly visible, the
+      inside is bald, the wings are 3 short.'
+    image: {fileID: 128790280296812429, guid: 704f2a98d8b38584b8d8e5661a2d6caf, type: 3}
+  - key: Castanopsisargentea
+    title: 'Castanopsis argentea
+
+      Berangan
+
+      Castanopsis argentea
+
+
+      Primary
+      Forest up to an altitude of 1400 m above sea level. Its distribution includes
+      Sumatra, Java and Kalimantan.
+
+
+      This tree sometimes has buttresses. The
+      sapwood (cambium part) is not jointed, but only slightly wavy. The leaf edges
+      are flat, the stalk thickens at the base. The inflorescence is always upright,
+      the flowers are bisexual. Male flowers are solitary or in groups of 3-7, only
+      at the tip of the spike are bisexual. Female flowers are solitary or in groups
+      of 3-7, only at the base of the spike are bisexual. The cup closes or encloses
+      1-7 fruits, with thorns or nodules, and may or may not open.'
+    image: {fileID: -7580969794417942091, guid: 591be8bee1c158687a29f4316aed0283, type: 3}
+  - key: Glutawallichii
+    title: 'Gluta wallichii
+
+      Rengas
+
+      Gluta wallichii
+
+
+      An emergent
+      or canopy tree in undisturbed dry or swampy forests, sometimes in peat swamp
+      forest, rarely on limestone, usually at elevations up to 500 metres, occasionally
+      to 1,000 metres
+
+
+      This tree can reach a height of up to 45 m and a trunk
+      diameter of 90 cm, with buttresses up to 4 m high. The bark is grayish brown,
+      scaly or grooved. Leaves are oblong to oval-ovate, oblong, leathery, glabrous
+      or pubescent on the lower surface, leaf base wedge-shaped, sometimes blunt,
+      tip blunt, pointed, sometimes slightly retracted, edges flat. Leaf stalks up
+      to 6 cm long. Panicles 16-33 cm long, pubescent, sometimes bald. Flower buds
+      are oval, petals red, slightly hairy on the outside, corolla white, ovary hairy.
+      Stone fruit, oval or oblong with a length of up to 1.5 cm, smooth, brown with
+      wings up to 8 cm long.'
+    image: {fileID: -1893523431097603945, guid: c33878a4e7669725b88da840d51e6889, type: 3}
+  - key: Shorealaevis
+    title: 'Shorea laevis
+
+      Bangkirai
+
+      Shorea laevis
+
+
+      Forming groups
+      in dry land Dipterocarp forests, hillsides or mountains, usually growing together
+      with Ulin (Eusideroxylon zwageri). Distribution includes Myanmar, Thailand,
+      Malay Peninsula, Sumatra, Borneo.
+
+
+      Tree up to 75 m tall, buttresses
+      up to 2 m. Pale yellow resin. Dark brown bark, scaly, thin. Dull yellow inner
+      bark. Small stipules, narrowly oblique. Single leaves, spiral, oval-shaped,
+      slightly narrowed. Long, lower surface of leaves with cream scales or bald,
+      wide-wedge leaf base, blunt or pointed leaf tip up to 2 cm long. Secondary
+      leaf veins 11-14 pairs, tertiary veins forming a ladder. Panicle inflorescence,
+      at the end of twigs or branches. Winged fruit, 3 long and 2 short, 1.5 cm long
+      geluk, 0.9 cm diameter, oval, remaining pistil stalk 4 mm long.'
+    image: {fileID: 7835054852441937543, guid: 419890a25e9bdfe0c9c36233c2f90046, type: 3}
+  - key: Eurycomalongifolia
+    title: "Eurycoma longifolia\nPasak Bumi\nEurycoma longifolia\n\nEurycoma longifolia
+      likes slightly acidic and sandy soil, lives in mixed dipterocarp forests in
+      lowlands, rarely reaching an altitude of 500 m above sea level.\n\nEurycoma
+      longifolia are shrubs or small trees with a height of up to 10 m, compound
+      leaves, odd pinnate, with leaf stalks that can reach 1 meter long, leaves clustered
+      at the end of branches, and leave a \u201Clampang\u201D after falling, leaflets
+      are opposite, lanceolate or slightly oval with slightly pointed tips, panicle
+      inflorescences, emerging from the leaf axils, flowers are orange- red and all
+      parts are finely hairy, flower petals number 5, triangular, crown 5, oval,
+      fruit is oblong or oval, when young it is yellow and turns red when ripe, Eurycoma
+      longifolia plants flower and bear fruit all year round."
+    image: {fileID: 3960577360837901525, guid: adf8880dc6f6d03d48a7518f1e46446e, type: 3}
+  - key: Mistletoefig
+    title: 'Mistletoe fig
+
+      Tabat Barito
+
+      Ficus deltoidea
+
+
+      This
+      plant lives in undisturbed to slightly disturbed areas in mixed dipterocarp
+      forests and heath forests, in coastal areas, swamps and sub- montane forests
+      up to an altitude of 2100 m above sea level. Often lives along rivers and forest
+      edges, but can also grow in chalky, sandy or clay soils.
+
+
+      Shrub plants
+      reaching 3 m in height. Stems are erect, woody, round with a rough surface,
+      brown and gummy. Single leaf, rounded, flat edges, smooth, green upper surface
+      and brownish yellow lower surface. Single flower, growing in the leaf axils,
+      top- shaped, stamens and pistils arranged in a circle, reddish- brown nail-shaped
+      crown, round yellow fruit, ball-shaped seeds, small brown, taproot brown.'
+    image: {fileID: 406030527760034813, guid: ed376b91248b40aa0b05567c495da97d, type: 3}
+  - key: Duriodulcis
+    title: 'Durio dulcis
+
+      Lahung
+
+      Durio dulcis
+
+
+      Grows at an altitude
+      of about 200 m above sea level.
+
+
+      Trees with a height of up to 50 m,
+      buttresses with a height of 4 m and a width of 3 m, reddish brown trunk, rough,
+      peeling irregularly, single leaves, with alternate positions, oval in shape,
+      leaf tips tapering to tails, leaf bases tapering, upper surface bald and lower
+      surface covered with pale brown to golden scales. Leaf stalks swell at the
+      ends, inflorescences appear on branches or stems, flower petals are notched
+      3-5, crowns number 5, pink, flower stalks with star hairs, round fruit, 15-20
+      cm in diameter, dark red to reddish brown, thorny, shiny brown seeds, covered
+      by dark yellow arils, sweet and aromatic taste.'
+    image: {fileID: 4802552959793384087, guid: cd14bf5ec03b18319a0162114a480de5, type: 3}
+  - key: Durioacutifolius
+    title: 'Durio acutifolius
+
+      Durian Nanggang
+
+      Durio acutifolius
+
+
+      Durian
+      nanggang biasa ditemukan di hutan terganggu hingga ketinggian 900 m dpl. Jenis
+      ini tumbuh di tanah berpasir, di hutan dipterocarpa campuran bagian atas atau
+      bening, juga ditemukan di hutan kerangas.
+
+
+      Pohon dengan tinggi mencapai
+      29 m dan diameter 49 cm. Stipula luruh, daun tunggal, tersusun berseling, dengan
+      tulang daun menyirip dan permukaan bawah berwarna keperakan-emas, bunga berdiameter
+      kurang lebih 15 mm, kelopak bertoreh 2, putih sampai kuning pucat biasanya
+      muncul satu-satu di belakang ranting berdaun, buah kecil kurang lebih 35 mm,
+      berwarna hitam, Sebagian kecil tertutup oleh aril yang kecil berwarna merah
+      yang enak dimakan.'
+    image: {fileID: 5904575222395087196, guid: 89969e0c18a0794da8633529c4fa77a3, type: 3}
+  - key: Artocarphusanisophyllus
+    title: 'Artocarphus anisophyllus
+
+      Puan/Kledang
+
+      Artocarphus anisophyllus
+
+
+      Usually
+      found in dipterocarp forests up to an altitude of 700 m above sea level. Grows
+      on sandy to clay soil, near river banks or rapids, sometimes also found growing
+      in hilly areas.
+
+
+      Medium-sized tree with a height of up to 30 m, grayish
+      trunk, smooth trunk surface, has plank roots with a height of up to 2.5 m,
+      produces white sap when the trunk is injured, oblong-shaped leaves, wavy surface
+      with a length of up to 90 cm, yellow flowers, yellowish brown fruit with blunt
+      thorns 1.25 cm long, orange fruit flesh.'
+    image: {fileID: 5131425946558473398, guid: 88d2f2796b44bebc6a0e9e815b5f11e3, type: 3}
+  - key: Borassodendronborneense
+    title: 'Borassodendron borneense
+
+      Bandang
+
+      Borassodendron borneense
+
+
+      Lowland
+      dipterocarp forests, distributed across Sarawak, Brunei, Sabah and Kalimantan.Lowland
+      dipterocarp forests, distributed across Sarawak, Brunei, Sabah and Kalimantan.
+
+
+      This
+      species has a height of up to 20 m, diameter up to 30 cm. Tabu coolie with
+      clear petiole scars. The leaves are almost round with a diameter of up to 4
+      m, the upper surface is dark green, the lower surface is densely hairy and
+      milky white. The leaf blade is divided into 10-12 separate parts almost to
+      the base of the leaf. The male and female flowers are separate, the male is
+      light brown, covered with a spreading brownish fuzz. Ripe pollen is yellowish
+      in color. The female flower panicle consists of 15-30 flowers. Fruit rounded,
+      slightly triangular, gray to brown. Fruit skin is thin, hard. The flesh is
+      fibrous, soft, orange yellow, smells of peach, edible. Three bear fruit contains
+      seeds, hard, blackish brown, smooth, hard, white seeds.This species has a height
+      of up to 20 m, diameter up to 30 cm. Tabu coolie with clear petiole scars.
+      The leaves are almost round with a diameter of up to 4 m, the upper surface
+      is dark green, the lower surface is densely hairy and milky white. The leaf
+      blade is divided into 10-12 separate parts almost to the base of the leaf.
+      The male and female flowers are separate, the male is light brown, covered
+      with a spreading brownish fuzz. Ripe pollen is yellowish in color. The female
+      flower panicle consists of 15-30 flowers. Fruit rounded, slightly triangular,
+      gray to brown. Fruit skin is thin, hard. The flesh is fibrous, soft, orange
+      yellow, smells of peach, edible. Three bear fruit contains seeds, hard, blackish
+      brown, smooth, hard, white seeds.'
+    image: {fileID: 1939220434765882205, guid: a7d21e167f702eed08fbb979d869770e, type: 3}
+  - key: Nepenthesmirabilis
+    title: 'Nepenthes mirabilis
+
+      Kantung Semar
+
+      Nepenthes mirabilis
+
+
+      This
+      species is found growing in open, sandy and wet places. It can also be found
+      in heathland forests, secondary forests, edges of peat swamp forests, tropical
+      forests and cliffs on the coast. It grows up to an altitude of 1200 m above
+      sea level.
+
+
+      The stem climbs and can grow as high as the tree it is climbing,
+      the stem diameter is about 1 cm, the joints are about 20 cm, the leaves are
+      lanceolate, thick and stalked, the leaf tendrils can reach a length of 110
+      cm. The leaves are modified to form a pouch, the height of the pouch is 15
+      cm, the width is 5 cm, the largest size of the pouch can reach a length of
+      40 cm, the lip or upper part of the pouch has a curve, while the lower part
+      of the pouch forms wings, the color of the pouch varies including red, green,
+      white, and brown with purple spots.'
+    image: {fileID: -4787989900766388037, guid: 1439763b135532421aa31e7493025953, type: 3}
+  - key: Coelogynekelamensis
+    title: 'Coelogyne kelamensis
+
+      Anggrek Kelam
+
+      Coelogyne kelamensis
+
+
+      Grows
+      in lowlands with an altitude close to sea level with hot air temperatures.
+
+
+      Coelogyne
+      kelamensis with pseudo bulb and leaves less than 30 cm long. Sympodial stem,
+      pseudo bulb grows on the stem land with a distance between pseudo bulbs of
+      3-3.5 cm. The shape of the pseudo bulb is elongated and slender, carrying 1
+      leaf. The leaves appear at the end of the pseudo bulb, upright, elongated inverted
+      oval shape, tapering to pointed tip, wavy edges, forming folds on 5 parallel
+      leaf bones, green-red in color. The flower cluster stalk appears from the end
+      of the pseudo bulb with a length of 12.5 cm, carrying up to 11 flowers, measuring
+      3 cm, blooming from the tip towards the base of the cluster. Transparent flowers,
+      3-lobed lips, salmon color with reddish edges and center of the middle lobe
+      and white at the tip.'
+    image: {fileID: -4308788750951063429, guid: 972901eda78a42eef894d1550a7fa5f0, type: 3}
+  - key: Amorphophalluspaeoniifolius
+    title: 'Amorphophallus paeoniifolius
+
+      Bunga Bangkai / Suweg
+
+      Amorphophallus
+      paeoniifolius
+
+
+      Amorphophallus paeoniifolius generally lives in humid
+      highlands and with not too much sunlight, spread across various islands of
+      Indonesia including Sulawesi, Java and Kalimantan. This plant is often found
+      in forest areas or plantations. This plant thrives when the rainy season arrives.
+
+
+      This
+      plant is one of the seasonal herbs belonging to the taro family, thrives when
+      the rainy season arrives. Soft, leaf stalks can reach 1.5 meters, small leaf
+      shape, pointed leaf tips, and green. The bark is rough, has small nodules,
+      and is striped green and white. On the surface of the tuber there are many
+      nodules (potential shoots), the tubers are fibrous and white. The shape of
+      the flower is like a trumpet and is dark red when it blooms and will only last
+      5-7 days, the flowers are arranged in a compound manner and have imperfect
+      flower buds. At each meeting of the branches and leaf axils, suweg does not
+      have bulbils.'
+    image: {fileID: -9154071282523006197, guid: c996ff8ce5a54e3aba1f723503ef365d, type: 3}
+  - key: Phalaenopsisbellina
+    title: 'Phalaenopsis bellina
+
+      Anggrek Bulan
+
+      Phalaenopsis bellina
+
+
+      The
+      distribution of this moon orchid grows a lot on the island of Kalimantan. And
+      its habitat is in shady and humid places. With an altitude of 200 m above sea
+      level. And many are seen growing in forest areas along the river.
+
+
+      The
+      coerulea form has a bluish- purple pigment as opposed to the typical magenta
+      coloration of the nominate type. The rubra form is solid magenta, but is believed
+      to be a hybrid between P. bellina and its sister species P. violacea. The alba
+      form lacks all pigment, and its flowers thus appear white, and sometimes faintly
+      green. The murtoniana form has a yellow- orange flower base, overlaid with
+      random reddish spots.
+
+'
+    image: {fileID: -2341289312452253250, guid: bd9eef46a5e18b5c995e601e709b7425, type: 3}
+  - key: Phalaenopsismodesta
+    title: 'Phalaenopsis modesta
+
+      Anggrek Bulan
+
+      Phalaenopsis modesta
+
+
+      This
+      species is often found growing in low to medium altitude areas, attached to
+      tree trunks in tropical rainforests. This species is distributed in Borneo,
+      especially in the lower hill forests. This orchid grows low, usually at the
+      base or roots of trees near streams, at altitudes between 50 and 900 meters.
+
+
+      Phalaenopsis
+      modesta is a species of epiphytic orchid that has small to medium-sized flowers.
+      Phalaenopsis modesta flowers are usually white or pale pink, with a small,
+      lip-shaped labella. This plant is small and grows well in warm to warm temperatures.
+      The stems are short and completely covered by a few sheaths containing leaves.
+      The plant flowers in spring and autumn with flowers borne on slender, arching,
+      or pendulous stalks 12.5 to 15 cm long, which are shorter than the leaves.
+      The inflorescences have ovate- lanceolate floral bracts and bear delicate flowers
+      with a strong fragrance.'
+    image: {fileID: -2653782699683768330, guid: 312c63865ac258b49939d02a9440eea5, type: 3}
+  - key: Paphiopedilumsupardii
+    title: "Paphiopedilum supardii\nAnggrek Kasut Supardi\nPaphiopedilum supardii\n\nAn
+      endemic orchid species found on the island of Borneo. This orchid grows in
+      its natural habitat of leaf litter in limestone crevices or grows in environments
+      with special conditions at an altitude of around 600 to 1,000 m above sea level.\n\nPaphiopedilum
+      supardii has shiny linear leaves that reach 30\u201340 cm in length. The flowers
+      are red- purple in color with a size of about 10 cm and are arranged in clusters,
+      usually consisting of 3 to 7 flowers. The specialty of this orchid lies in
+      the unique shape of its flowers with a knife shape and texture on the flower
+      stalks, making it very attractive as an ornamental plant."
+    image: {fileID: 3813616900202223561, guid: 05acc510a1b5dc71b9b3c16392e72225, type: 3}
+--- !u!4 &1719195018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719195016}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 255.47481, y: 1086.7092, z: -21.48886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1776877100 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8814982024301923904, guid: 302951abebc6615f699e8d346280f402, type: 3}
+  m_PrefabInstance: {fileID: 1544875164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8187421909046106094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 720941900}
+    m_Modifications:
+    - target: {fileID: 348728158522674117, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_text
+      value: 'artikel1
+
+        erg
+
+        er
+
+        erf
+
+        erg
+
+        erg
+
+        e
+
+        rg
+
+        erg
+
+        ertg
+
+        erg
+
+        e
+
+        rg
+
+        erf
+
+        er
+
+        e
+
+        rge
+
+        rg
+
+        erg
+
+        erg
+
+        er
+
+        ge
+
+
+        ger
+
+        g
+
+        erg
+
+        e
+
+        drg
+
+        edrg
+
+        e
+
+        rg
+
+        ed
+
+        hr
+
+        fgb
+
+        d
+
+        f'
+      objectReference: {fileID: 0}
+    - target: {fileID: 348728158522674117, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 349314397172620658, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349314397172620658, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 349314397172620658, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 942208762306892801, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 942208762306892801, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 942208762306892801, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 771.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 942208762306892801, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 942208762306892801, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251782609348032362, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251782609348032362, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2008588983349142154, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Size
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2008588983349142154, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155093045609819740, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155093045609819740, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 850
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155093045609819740, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726665787820732575, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749300635223925621, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749300635223925621, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749300635223925621, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780610010827216474, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851023568236690148, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083815253867124768, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083815253867124768, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083815253867124768, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330479578137894945, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Name
+      value: Detail_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3486364179708916916, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 553.3801
+      objectReference: {fileID: 0}
+    - target: {fileID: 3486364179708916916, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3486364179708916916, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -377.82336
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668847052897724532, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Size
+      value: 0.97875
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 850
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903951479479622906, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4266400678990447953, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317957594550941933, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504027769298035965, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504027769298035965, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721004853339854953, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721004853339854953, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721004853339854953, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_text
+      value: "Hai, mohon maaf ya, page ini belum dibuat / eror,\nkalo kamu melihat
+        page ini silahkan screenshot dan kirim ke \nyuanalbyan13@gmail.com\nterimakasih"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 639.9135
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128655475589337073, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5707287375584813664, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5707287375584813664, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00003162537
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134944537026552452, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134944537026552452, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272812732257329134, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272812732257329134, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272812732257329134, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272812732257329134, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039165479664314887, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039165479664314887, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018284741294546805, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_text
+      value: 'e
+
+        e
+
+        e
+
+        wef
+
+        w
+
+        e
+
+        wer
+
+        wre
+
+        we
+
+        w
+
+        erw
+
+        er
+
+        wr
+
+        wer
+
+        w
+
+        rw
+
+        erw
+
+        r
+
+        wer
+
+        w
+
+        er
+
+        wre
+
+        we
+
+        r
+
+        wre
+
+        wr
+
+        w
+
+        rew
+
+        r
+
+        w'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602814488737931435, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602814488737931435, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602814488737931435, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602814488737931435, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655287517196583296, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Name
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698901294294809574, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698901294294809574, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698901294294809574, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698901294294809574, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736377321967953309, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736377321967953309, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736377321967953309, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8738984735094466598, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_Horizontal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8738984735094466598, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962722098736071551, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962722098736071551, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962722098736071551, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962722098736071551, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000024681864
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004586130240046468, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004586130240046468, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004586130240046468, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 1799977186280090352, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1224396279}
+    - targetCorrespondingSourceObject: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 160064849}
+    - targetCorrespondingSourceObject: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 828820200}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3330479578137894945, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8187421909046106097}
+  m_SourcePrefab: {fileID: 100100000, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+--- !u!224 &8187421909046106095 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6309106548907884802, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+  m_PrefabInstance: {fileID: 8187421909046106094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8187421909046106096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3330479578137894945, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+  m_PrefabInstance: {fileID: 8187421909046106094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8187421909046106097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187421909046106096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0dab3c9ed9bbb0a6b5ce505de197e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  articleImage: {fileID: 170567701}
+  articleTitle: {fileID: 8187421909046106098}
+--- !u!114 &8187421909046106098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4820715204100991662, guid: e857f66cc60021b9b95b7bd080b3ddc6, type: 3}
+  m_PrefabInstance: {fileID: 8187421909046106094}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 142787373}
+  - {fileID: 369703265}
+  - {fileID: 914194101}
+  - {fileID: 1719195018}
+  - {fileID: 198375785}
+  - {fileID: 1544875164}
