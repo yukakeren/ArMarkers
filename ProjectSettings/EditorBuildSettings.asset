@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 11386559eae69db47a47dc7de0e03584
   - enabled: 1
-    path: Assets/ArZoo.unity
+    path: Assets/Scenes/ArZoo.unity
     guid: 4154093650eee374d9be61a7ce816809
   - enabled: 1
     path: Assets/Scenes/EncyclopediaScene.unity
